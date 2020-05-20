@@ -1,7 +1,8 @@
 import React from "react";
 import NodeFetch from "./NodeFetch";
 import PublicFetch from "./PublicFetch";
-import { Header, Button, Card, Image } from "semantic-ui-react";
+import { Card } from "semantic-ui-react";
+import ComplexFetch from "./ComplexFetch";
 
 const FetchContainer = () => {
   return (
@@ -9,6 +10,7 @@ const FetchContainer = () => {
       <Card.Group>
         <NodeFetch></NodeFetch>
         <PublicFetch></PublicFetch>
+        <ComplexFetch></ComplexFetch>
       </Card.Group>
     </>
   );
